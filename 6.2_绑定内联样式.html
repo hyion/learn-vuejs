@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div id="app">
+		<p v-bind:style="{color: currColor, fontSize: fontSize}">绑定内联样式</p>
+		<!--另外一种绑定方式-->
+		<p v-bind:style="styleObj">绑定一个样式对象</p>
+	</div>
+	
+	
+	
+	<script src="js/vue-2.1.3.js"></script>
+	<script>
+		var vm = new Vue({
+			el: '#app',
+			data: {
+				currColor: 'green',
+				fontSize: '30px',
+				styleObj: {
+					color: 'red',
+					border: '1px solid gold'
+				}
+				
+				
+			}
+		})
+	</script>
+</body>
+</html>

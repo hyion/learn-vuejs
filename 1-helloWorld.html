@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div id="app">
+		<input v-model="userName"/>
+		<p>{{userName}}</p>
+	</div>
+	
+<script src="js/vue-2.1.3.js"></script>	
+<script>
+	var vm = new Vue({
+		el: '#app',
+		data: {
+			userName: '张三'
+		}
+	});
+	
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="app">
+		<p v-text="obj"></p>
+		<p v-ots="obj"></p>
+		<p v-ots="msg"></p>
+	</div>
+
+	<script type="text/javascript" src="js/vue-2.1.3.js"></script>
+	<script type="text/javascript">
+
+		// 自定义指令object to str 变量是对象时转为字符串
+		Vue.directive('ots', {
+			  bind: function (el,binding) {
+			    console.log('demo bound!');
+			    var str;
+			  	if (typeof binding.value === 'object') {
+			  		// 如果是对象,先转为字符	串
+			  		str = JSON.stringify(binding.value);
+			  	} else {
+			  		str = binding.value;
+			  	}
+			    el.innerHTML = str;
+			  },
+			  update: function (el,binding,vnode,oldVnode) {
+			  	console.log('do nothing!');
+			  	console.log(vnode);
+			  	console.log(oldVnode);
+			  	// var str;
+			  	// if (typeof binding.value === 'object') {
+			  	// 	// 如果是对象,先转为字符串
+			  	// 	str = JSON.stringify(binding.value);
+			  	// } else {
+			  	// 	str = binding.value;
+			  	// }
+			   //  el.innerHTML = str;
+			}
+		})
+
+	var vm = new Vue({
+	  el: '#app',
+	  data: {
+	  	msg: '自定义指令ots',
+	    obj: {
+	    	userName: '楚留香',
+	    	age: 200,
+	    	hobby: '武功'
+	    }
+	  }
+	})
+
+	</script>
+</body>
+</html>

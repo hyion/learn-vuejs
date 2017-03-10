@@ -1,0 +1,40 @@
+VUE技能点
+
+一,必备知识
+vue指令: 1~8
+1,hello world
+2,数据填充,填充文本或html v-text v-html		 
+3,双向绑定  v-model
+4,渲染列表 
+1)v-for  2)template v-for   
+3)对象 v-for		
+4)值域 v-for
+
+5,条件渲染 
+1)v-if	???
+2)template v-if		 
+3)v-show   
+
+6,绑定类名或样式 
+7,绑定属性
+8,绑定表单元素		 
+9,监控属性$watch
+10,过滤器 内置过滤器 http://cn.vuejs.org/api/   在文档的最下面
+11,绑定事件
+1)方法处理器以及方法传参	  
+2)事件修饰符stop prevent self	
+3)按键修饰符
+12,自定义过滤器
+13,自定义指令
+14,v-source组件
+文档实例地址: http://www.doc00.com/doc/1001004eg
+15,v-router路由: http://blog.csdn.net/qq_24122593/article/details/52699230
+16,组件
+
+二,进阶(了解)
+1,自定义指令
+2,自定义过滤器
+3,组件
+1)路由
+2)ajax(发请求)
+3)其他

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div id="app">
+        <p>首字母变大写: {{userName | capitalize}}</p>
+        <button v-on:click="test|debounce 2000">延迟触发事件</button>
+        <p>对象变json字符串: {{cat | json}}</p>
+    </div>
+
+
+<script src="vue.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            userName: 'huruqing',
+            cat: {
+                color: '红色',
+                age: '2岁'
+            }
+        },
+        methods: {
+            test: function() {
+                alert('测试延迟');
+            }
+        }
+    });
+</script>
+</body>
+</html>

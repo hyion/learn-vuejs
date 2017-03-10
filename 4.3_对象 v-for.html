@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>遍历对象属性</title>
+</head>
+<body>
+	<div id="app">
+		<p v-for="v in obj">
+			{{v}}
+		</p>
+		<hr>
+		<p v-for="(v,key) in obj">
+			{{key}} -- {{v}}
+		</p>
+		<hr>
+		<p v-for="(v,key,index) in obj">
+			{{index}} -- {{key}} -- {{v}}
+		</p>
+	</div>
+	
+	<script src="js/vue-2.1.3.js"></script>
+	<script>
+		var vm = new Vue({
+			el: '#app',
+			data: {
+				obj: {
+					name: 'zhang',
+					
+					age: 22,
+					hobby: 'basketball',
+				}
+			}
+		})
+	</script>
+</body>
+</html>

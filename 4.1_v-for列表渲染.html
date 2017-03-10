@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div id="app">
+		<ul>
+		  <li v-for="(item,index) in flowers">
+		  	<!-- v-for 还支持一个可选的第二个参数为当前项的索引。 -->
+		  	<!-- in 可以替换为 of -->
+		    {{index}} -- {{item.flowName}} --> {{item.addr}}
+		  </li>
+		</ul>
+	</div>
+	
+	
+	<script src="js/vue-2.1.3.js"></script>
+	<script>
+		var list = [
+		 	{flowName: '玫瑰', addr: '上海'},
+		 	{flowName: '月季', addr: '广东'},
+		 	{flowName: '牡丹', addr: '广西'},
+		];
+		var vm = new Vue({
+			  el: '#app',
+			  data: {
+			    flowers: list
+			  }
+			});
+
+
+		var newList = [
+			{flowName: '樱花', addr: '上海'},
+		 	{flowName: '海棠', addr: '广东'},
+		 	{flowName: '牡丹', addr: '广西'},
+		 	{flowName: '石榴花', addr: '广西'},
+		 	{flowName: '月季', addr: '广西'}
+		];
+		//添加新list
+		list.push({flowName: '玫瑰花',addr:'湖南'})
+		
+	</script>
+</body>
+</html>

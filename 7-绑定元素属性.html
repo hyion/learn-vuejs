@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div id="app">
+        <a v-bind:href="url">百度</a><br>
+        <img v-bind:src="imgUrl">
+    </div>
+
+<script src="js/vue-2.1.3.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            url: 'http://www.baidu.com',
+            imgUrl: 'https://www.baidu.com/img/bd_logo1.png'
+        }
+    })
+</script>
+
+</body>
+</html>

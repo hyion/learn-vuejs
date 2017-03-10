@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		.static { border: 1px solid; }
+		.aa { background-color: gray; }
+		.bb {font-size: 30px;}
+		.cc {border: 1px solid green;}
+		.dd {text-align: center;}
+	</style>
+</head>
+<body>
+	<div id="app">
+		<p class="static" v-bind:class="{'aa': isA, 'bb': isB}">绑定class</p>
+		<p v-bind:class="[c,d]">绑定class:数组方式</p>
+	</div>
+	
+	
+	<script src="js/vue-2.1.3.js"></script>
+	<script>
+		var vm = new Vue({
+			el: '#app',
+			data: {
+				isA: true,
+				isB: true,
+				c: 'cc',
+				d: 'dd'
+			}
+		});
+		// vm.isB = true;
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+{
+  "resCode": "000",
+  "resMsg": "success",
+  "prdList": [
+    {
+      "id": "10022",
+      "prdName": "\u5b89\u5fc3\u725b",
+      "novice": "N",
+      "annualYield": "13.11%",
+      "term": "512\u5929\n",
+      "remainAmount": "0",
+      "sellOut": "Y",
+      "startTime": "2016-03-29"
+    },
+    {
+      "id": "10023",
+      "prdName": "\u5b89\u5fc3\u725b",
+      "novice": "Y",
+      "annualYield": "10.00 - 10.50%",
+      "term": "3\u4e2a\u6708",
+      "remainAmount": "49700",
+      "sellOut": "N",
+      "startTime": null
+    },
+    {
+      "id": "10024",
+      "prdName": "\u6708\u6708\u725b",
+      "novice": "N",
+      "annualYield": "7.00 - 11.00%",
+      "term": null,
+      "remainAmount": "220600",
+      "sellOut": "N",
+      "startTime": null
+    },
+    {
+      "id": "10025",
+      "prdName": "\u5b89\u8f66\u725b",
+      "novice": "N",
+      "annualYield": "8.50%",
+      "term": "3\u4e2a\u6708",
+      "remainAmount": "17970",
+      "sellOut": "N",
+      "startTime": null
+    },
+    {
+      "id": "10026",
+      "prdName": "\u5b89\u5fc3\u725b",
+      "novice": "N",
+      "annualYield": "11.00 - 11.50%",
+      "term": "12\u4e2a\u6708",
+      "remainAmount": "320900",
+      "sellOut": "N",
+      "startTime": null
+    },
+    {
+      "id": "10027",
+      "prdName": "\u5b89\u5fc3\u725b",
+      "novice": "N",
+      "annualYield": "12.50 - 13.00%",
+      "term": "24\u4e2a\u6708",
+      "remainAmount": "83500",
+      "sellOut": "N",
+      "startTime": null
+    },
+    {
+      "id": "10028",
+      "prdName": "\u5929\u5929\u725b",
+      "novice": "N",
+      "annualYield": "6.00%",
+      "term": null,
+      "remainAmount": "4133382",
+      "sellOut": "N",
+      "startTime": null
+    },
+    {
+      "id": "10029",
+      "prdName": "\u5b89\u5fc3\u725b-\u8f6c",
+      "novice": "N",
+      "annualYield": "12.02%",
+      "term": "665\u5929",
+      "remainAmount": "1243.58",
+      "sellOut": "N",
+      "startTime": null
+    },
+    {
+      "id": "10030",
+      "prdName": "\u5b89\u5fc3\u725b-\u8f6c",
+      "novice": "N",
+      "annualYield": "11.95%",
+      "term": "650\u5929",
+      "remainAmount": "1336.56",
+      "sellOut": "N",
+      "startTime": null
+    },
+    {
+      "id": "10031",
+      "prdName": "\u5b89\u5fc3\u725b-\u8f6c",
+      "novice": "Y",
+      "annualYield": "13.11%",
+      "term": "515\u5929",
+      "remainAmount": "0",
+      "sellOut": "Y",
+      "startTime": "2016-03-29"
+    },
+    {
+      "id": "10032",
+      "prdName": "\u5b89\u5fc3\u725b-\u8f6c",
+      "novice": "N",
+      "annualYield": "13.11%",
+      "term": "514\u5929",
+      "remainAmount": "0",
+      "sellOut": "Y",
+      "startTime": "2016-03-29"
+    },
+    {
+      "id": "10033",
+      "prdName": "\u5b89\u5fc3\u725b-\u8f6c",
+      "novice": "N",
+      "annualYield": "13.11%",
+      "term": "512\u5929",
+      "remainAmount": "0",
+      "sellOut": "Y",
+      "startTime": "2016-03-29"
+    }
+  ],
+  "projectList": [
+    {
+      "id": "2000",
+      "prdName": "\u6708\u6708\u725b",
+      "sellOut": "N",
+      "prdNum": ""
+    },
+    {
+      "id": "2001",
+      "prdName": "\u5929\u5929\u725b",
+      "sellOut": "N",
+      "prdNum": ""
+    },
+    {
+      "id": "2002",
+      "prdName": "\u5b89\u5fc3\u725b",
+      "sellOut": "N",
+      "prdNum": "4"
+    },
+    {
+      "id": "2003",
+      "prdName": "\u6563\u6807\u6295\u8d44",
+      "sellOut": "N",
+      "prdNum": "1"
+    },
+    {
+      "id": "2004",
+      "prdName": "\u5bcc\u76c8\u4eba\u751f",
+      "sellOut": "Y",
+      "prdNum": ""
+    },
+    {
+      "id": "2005",
+      "prdName": "\u503a\u6743\u8f6c\u8ba9",
+      "sellOut": "N",
+      "prdNum": ""
+    },
+    {
+      "id": "2006",
+      "prdName": "VIP\u4e13\u4eab",
+      "sellOut": "Y",
+      "prdNum": ""
+    },
+    {
+      "id": "2007",
+      "prdName": "\u7406\u8d22\u4f53\u9a8c\u6807",
+      "sellOut": "Y",
+      "prdNum": ""
+    }
+  ],
+  "imgList": [
+    "images\/banner1.png",
+    "images\/banner2.png",
+    "images\/banner3.png",
+    "images\/banner4.png",
+    "images\/banner5.png"
+  ],
+  "insName": "\u4ea7\u54c1\u5217\u8868\u67e5\u8be2",
+  "isLogin": "N"
+}

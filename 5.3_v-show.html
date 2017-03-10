@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div id="app">
+		<p v-show="ok">v-show演示</p>
+		<!-- <p v-else>v-else可以跟在v-show的后面</p> -->
+		<p v-show="!ok">v-show演示2</p>
+	</div>
+	
+	<script src="js/vue-2.1.3.js"></script>
+	<script>
+		var vm = new Vue({
+			el: '#app',
+			data: {
+				ok: false
+			}
+		});
+	</script>
+</body>
+</html>

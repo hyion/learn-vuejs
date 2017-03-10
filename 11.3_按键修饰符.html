@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div id="app">
+		<!-- 只有当按下的键是回车时才触发事件 -->
+		<input v-on:keyup.enter="login" />
+	</div>
+	
+	<script src="js/vue-2.1.3.js"></script>
+	<script>
+		var vm = new Vue({
+			el: '#app',
+			methods: {//method 方法
+				login: function() {
+					alert('登录');
+				}
+			}
+		})
+	</script>
+</body>
+</html>

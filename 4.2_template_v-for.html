@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div id="app">
+		<ul>
+			<template v-for="(item,index) in list">
+				<li>{{index}}</li>
+				<li>{{item.name}} -- {{item.addr}}</li>
+			</template>
+		</ul>
+		
+		
+	</div>
+	<script src="js/vue-2.1.3.js"></script>
+	<script>
+		var vm = new Vue({
+			el: '#app',
+			data: {
+				list: [
+					{name: '梅花',addr:'山东'},
+					{name: '樱花',addr:'广东'},
+					{name: '映山红',addr:'广西'},
+					{name: '梅花',addr:'湖南'}
+				]
+			}
+		});
+		vm.list.push({name: '玫瑰花',addr:'湖南'});
+		vm.list.reverse();
+		
+		
+		
+	</script>
+</body>
+</html>

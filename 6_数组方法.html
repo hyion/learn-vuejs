@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div id="app">
+		<ol>
+			<template v-for="item in list">
+				<li>{{item.name}} -- {{item.addr}}</li>
+			</template>
+		</ol>
+		
+		
+	</div>
+	<script src="js/vue-2.1.3.js"></script>
+	<script>
+		var vm = new Vue({
+			el: '#app',
+			data: {
+				list: [
+					{name: '梅花',addr:'山东'},
+					{name: '樱花',addr:'广东'},
+					{name: '映山红',addr:'广西'},
+					{name: '海棠花',addr:'湖南'},
+					{name: '梅花',addr:'湖南'}
+				]
+			}
+		});
+		// 过滤数组
+			// vm.list = vm.list.filter(function(item) {
+			// 	return item.addr === '广西';
+			// });
+		// 更新数组中的某个对象
+		// vm.list.$set(2, {name: '满堂红', addr: '广西'});
+		
+		
+		
+	</script>
+</body>
+</html>
